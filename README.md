@@ -1,2 +1,4 @@
-# python_basic
-Thực hành các lệnh python đơn giản
+#Thực hành Python
+  
+Python cơ bản
+Hướng đối tượng
