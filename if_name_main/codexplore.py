@@ -14,7 +14,7 @@ def main():
     email_username, email_domain = emailProcess(email)
     printMsg(email_username, email_domain)
 
-main() # gọi khi có module khác gọi module này
+#main() # gọi khi có module khác gọi module này
 
-#if __name__ == "__main__": # gọi khi chính module này được gọi thực thi
-#    main()
+if __name__ == "__main__": # gọi khi chính module này được gọi thực thi
+   main()
