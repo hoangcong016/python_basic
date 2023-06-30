@@ -125,7 +125,7 @@ my_str = "Practice makes perfect"
 
 # count function
 # my_str = "ok, I'm fine, thank you!"
-# print(my_str.count("k"))
+# print(my_str.count("k")) # 2
 
 '''
 String Formatting
@@ -151,7 +151,7 @@ String Formatting
 # my_str = "I am {}; {} years old; height {:.3f} cm".format(name, age, height)
 # print(my_str)
 
-# f-String
+# f-String (Python 3)
 # age = 1
 # height = 168.5
 # name = "HOUSE 360 VN"
