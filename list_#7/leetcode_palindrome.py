@@ -12,7 +12,7 @@ def check_palindrome(str=""):
     return result == result[::-1]
 
 def main():
-    str_check = input("Please input your text: ")
+    str_check = input("Please input your text (ex: 'A man, a plan, a canal: Panama'): ")
     print(check_palindrome(str_check))
 
 if __name__ == "__main__":
