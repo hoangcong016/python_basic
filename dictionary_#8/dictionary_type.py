@@ -20,6 +20,8 @@ Key phải là một kiểu không thể thay đổi (immutable) như chuỗi, s
 # content_in_dict = my_dict['content']
 # print(content_in_dict)
 # print(my_dict['age']) # KeyError: 'age'
+# print(my_dict.get('city')) # Ho Chi Minh
+# print(my_dict.get('age')) # if key không có thì trả ra None
 
 # Check for key, use if .. in .. and try .. except
 # my_dict = {'name':'house360.vn', 'content':'Programming Youtube Channel', 'city': 'Ho Chi Minh'}
